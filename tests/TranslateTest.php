@@ -4,10 +4,19 @@ namespace Joshuaswarren\JackSparrow;
 
 class TranslateTest extends \PHPUnit_Framework_TestCase
 {
-    public function testOutput()
+    public function testFriend()
     {
         $translator = new Translate;
-        $result = $translator->toPirate("Hello world!");
-        $this->assertEquals($result, "Ahoy world!");
+        $result = $translator->toPirate("friend");
+        $this->assertEquals($result, "mate");
     }
+
+    public function testBeer()
+    {
+        $translator = new Translate;
+        $result = $translator->toPirate("beer");
+        $this->assertEquals($result, "grog");
+    }
+
+
 }
