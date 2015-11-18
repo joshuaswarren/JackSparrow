@@ -1,0 +1,28 @@
+{
+  "name": "Joshuaswarren/JackSparrow",
+  "description": "Library to translate text from English to Pirate.",
+  "keywords": [
+    "JackSparrow",
+    "pirate"
+  ],
+  "homepage": "https://github.com/joshuaswarren/JackSparrow",
+  "license": "MIT",
+  "authors" : [
+    {
+      "name": "Joshua Warren",
+      "email": "josh@creatuity.com",
+      "homepage": "http://joshuawarren.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Joshuaswarren\\JackSparrow\\": "src/"
+    }
+  }
+}

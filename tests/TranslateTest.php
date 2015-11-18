@@ -2,7 +2,7 @@
 
 namespace Joshuaswarren\JackSparrow;
 
-class TranslateTest extends PHPUnit_Framework_TestCase
+class TranslateTest extends \PHPUnit_Framework_TestCase
 {
     public function testOutput()
     {
