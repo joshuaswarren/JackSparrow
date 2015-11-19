@@ -6,3 +6,6 @@ php:
 install:
   - composer install
 script: phpunit --bootstrap vendor/autoload.php tests/TranslateTest.php 
+addons:
+    code_climate:
+        repo_token: ccc11581971403796fa871ff82bfdbe5621074c62bea12bc7a4a4fae94b8268f
